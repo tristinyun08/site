@@ -5,7 +5,7 @@
   --container-background: #f6fff8;
   --text-and-headings: #6b9080;
   --secondary-text: #a4c3b2;
-  --border-color: #cce3de;
+  --border-color: #000000;
 }
 
 body {
@@ -50,6 +50,7 @@ h2 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  border: 2px solid var(--border-color);
 }
 
 .experience-item {
