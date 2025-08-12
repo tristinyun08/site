@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
 :root {
-  --background-color: #f8f8f7;
-  --container-background: #ffffff;
-  --primary-text: #2c3e50;
-  --accent-color: #34495e;
-  --secondary-text: #7f8c8d;
-  --border-color: #ecf0f1;
+  --background-color: #eaf4f4;
+  --container-background: #f6fff8;
+  --text-and-headings: #6b9080;
+  --secondary-text: #a4c3b2;
+  --border-color: #cce3de;
 }
 
 body {
