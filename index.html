@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Site</title>
+    <title>Tristin's Site</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -12,28 +13,37 @@
     <main>
       <section id="about">
         <h2>About Me</h2>
-        <p>
-          Welcome to my personal site! Here you can find information about
-          orzness.
-        </p>
-        <images>
+        <div class="about-content">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4D03AQHGW9gKxnZPZg/profile-displayphoto-scale_400_400/B4DZf3HuG7HkAg-/0/1752197686076?e=1757548800&v=beta&t=L3lFpCya7WYur0Vqm5QpszQQ4oOqr0sneiRlQxkCIW8"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQHGW9gKxnZPZg/profile-displayphoto-scale_400_400/B4DZf3HuG7HkAg-/0/1752197686076?e=1758153600&v=beta&t=8Swx9upxioDUv0_iI2n1QpaWqsR-uNbLWPFuONQtJ3A"
             alt="Profile Picture"
+            class="profile-picture"
           />
-        </images>
+          <p>
+            Welcome to my personal site! Here you can find information about my
+            orzness.
+          </p>
+        </div>
       </section>
       <section id="experience">
         <h2>Experience</h2>
-        <div>
-          <h3>Computational Oncology Intern</h3>
-          <h4>Memorial Sloan Kettering</h4>
-          <p>Jun 2025 - Present</p>
-          <p>
-            1/8 students out of a cohort of 800 selected for the HOPP SSP
-            program. Worked in the Nikolaus Schultz lab on secondary bladder
-            cancer as a result of radiotherapy for primary cancers.
-          </p>
+        <div class="experience-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFk6KlQRD0-CR74ZjLDwFseRk_fQSGEh0ydA&s"
+            alt="MSKCC Logo"
+            class="company-logo"
+          />
+          <div class="experience-details">
+            <h3>Computational Oncology Intern</h3>
+            <h4>Memorial Sloan Kettering</h4>
+            <p>Jun 2025 - Present</p>
+            <p>
+              1/8 students out of a cohort of 800 selected for the HOPP SSP
+              program. <br />
+              Worked in the Nikolaus Schultz lab on secondary bladder cancer as
+              a result of radiotherapy for primary cancers.
+            </p>
+          </div>
         </div>
       </section>
     </main>
