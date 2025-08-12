@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
+:root {
+  --background-color: #f8f8f7;
+  --container-background: #ffffff;
+  --primary-text: #2c3e50;
+  --accent-color: #34495e;
+  --secondary-text: #7f8c8d;
+  --border-color: #ecf0f1;
+}
+
 body {
   font-family: "EB Garamond", serif;
   line-height: 1.6;
